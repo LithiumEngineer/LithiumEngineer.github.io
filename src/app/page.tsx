@@ -246,7 +246,7 @@ const Home = () => {
                 </div>
                 <div className="hover:underline hover:text-red-600 hover:cursor-pointer">
                   [SpongeBob and Patrick slowly back away, and then run off. Tom
-                  chases them while madly screaming "Chocolate!" The scene cuts
+                  chases them while madly screaming &quot;Chocolate!&quot; The scene cuts
                   to SpongeBob ringing the doorbell of another house] O.K, the
                   first guy didn&apos;t count. This is our real first step! [A
                   Con man opens the door] Good Morning, sir! Would you like to
@@ -371,7 +371,7 @@ const Home = () => {
                 </div>
                 <div className="hover:underline hover:text-red-600 hover:cursor-pointer">
                   SpongeBob: —lady. [Tom chases SpongeBob and Patrick again
-                  while screaming "Chocolate!" The scene cuts to SpongeBob and
+                  while screaming &quot;Chocolate!&quot; The scene cuts to SpongeBob and
                   Patrick sitting in a diner] We&apos;re not doing so well,
                   Patrick. We need a new approach, a new tactic.
                 </div>
