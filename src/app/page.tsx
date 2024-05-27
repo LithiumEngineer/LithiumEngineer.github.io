@@ -19,6 +19,73 @@ const Home = () => {
         key4 === "M" &&
         key5 === "O" ? (
           <div className="h-fit w-fit flex flex-col">
+            <div className="flex space-x-5 mx-auto mt-5">
+              <input
+                className={`w-10 h-16 text-blue-500 text-3xl flex justify-around text-center ${
+                  key1 === "T" &&
+                  key2 === "E" &&
+                  key3 === "E" &&
+                  key4 === "M" &&
+                  key5 === "O" &&
+                  "bg-green-200"
+                }`}
+                value={key1}
+                onChange={(e) => setKey1(e.target.value.toUpperCase())}
+                disabled
+              ></input>
+              <input
+                className={`w-10 h-16 text-blue-500 text-3xl flex justify-around text-center ${
+                  key1 === "T" &&
+                  key2 === "E" &&
+                  key3 === "E" &&
+                  key4 === "M" &&
+                  key5 === "O" &&
+                  "bg-green-200"
+                }`}
+                value={key2}
+                onChange={(e) => setKey2(e.target.value.toUpperCase())}
+                disabled
+              ></input>
+              <input
+                className={`w-10 h-16 text-blue-500 text-3xl flex justify-around text-center ${
+                  key1 === "T" &&
+                  key2 === "E" &&
+                  key3 === "E" &&
+                  key4 === "M" &&
+                  key5 === "O" &&
+                  "bg-green-200"
+                }`}
+                value={key3}
+                onChange={(e) => setKey3(e.target.value.toUpperCase())}
+                disabled
+              ></input>
+              <input
+                className={`w-10 h-16 text-blue-500 text-3xl flex justify-around text-center ${
+                  key1 === "T" &&
+                  key2 === "E" &&
+                  key3 === "E" &&
+                  key4 === "M" &&
+                  key5 === "O" &&
+                  "bg-green-200"
+                }`}
+                value={key4}
+                onChange={(e) => setKey4(e.target.value.toUpperCase())}
+                disabled
+              ></input>
+              <input
+                className={`w-10 h-16 text-blue-500 text-3xl flex justify-around text-center ${
+                  key1 === "T" &&
+                  key2 === "E" &&
+                  key3 === "E" &&
+                  key4 === "M" &&
+                  key5 === "O" &&
+                  "bg-green-200"
+                }`}
+                value={key5}
+                onChange={(e) => setKey5(e.target.value.toUpperCase())}
+                disabled
+              ></input>
+            </div>
             <div className="text-6xl font-bold text-green-600 text-center">
               Congratulations!
             </div>
@@ -43,35 +110,60 @@ const Home = () => {
             <div className="flex space-x-5 mx-auto mt-5">
               <input
                 className={`w-10 h-16 text-blue-500 text-3xl flex justify-around text-center ${
-                  key1 === "T" && "bg-green-200"
+                  key1 === "T" &&
+                  key2 === "E" &&
+                  key3 === "E" &&
+                  key4 === "M" &&
+                  key5 === "O" &&
+                  "bg-green-200"
                 }`}
                 value={key1}
                 onChange={(e) => setKey1(e.target.value.toUpperCase())}
               ></input>
               <input
                 className={`w-10 h-16 text-blue-500 text-3xl flex justify-around text-center ${
-                  key2 === "E" && "bg-green-200"
+                  key1 === "T" &&
+                  key2 === "E" &&
+                  key3 === "E" &&
+                  key4 === "M" &&
+                  key5 === "O" &&
+                  "bg-green-200"
                 }`}
                 value={key2}
                 onChange={(e) => setKey2(e.target.value.toUpperCase())}
               ></input>
               <input
                 className={`w-10 h-16 text-blue-500 text-3xl flex justify-around text-center ${
-                  key3 === "E" && "bg-green-200"
+                  key1 === "T" &&
+                  key2 === "E" &&
+                  key3 === "E" &&
+                  key4 === "M" &&
+                  key5 === "O" &&
+                  "bg-green-200"
                 }`}
                 value={key3}
                 onChange={(e) => setKey3(e.target.value.toUpperCase())}
               ></input>
               <input
                 className={`w-10 h-16 text-blue-500 text-3xl flex justify-around text-center ${
-                  key4 === "M" && "bg-green-200"
+                  key1 === "T" &&
+                  key2 === "E" &&
+                  key3 === "E" &&
+                  key4 === "M" &&
+                  key5 === "O" &&
+                  "bg-green-200"
                 }`}
                 value={key4}
                 onChange={(e) => setKey4(e.target.value.toUpperCase())}
               ></input>
               <input
                 className={`w-10 h-16 text-blue-500 text-3xl flex justify-around text-center ${
-                  key5 === "O" && "bg-green-200"
+                  key1 === "T" &&
+                  key2 === "E" &&
+                  key3 === "E" &&
+                  key4 === "M" &&
+                  key5 === "O" &&
+                  "bg-green-200"
                 }`}
                 value={key5}
                 onChange={(e) => setKey5(e.target.value.toUpperCase())}
