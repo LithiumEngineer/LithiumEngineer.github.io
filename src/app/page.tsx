@@ -204,7 +204,7 @@ const Home = () => {
           {guess.toLowerCase() === "spongebob" && (
             <>
               <div className="text-center italic mt-3">
-                Who knew there was a deadly computer virus in spongebob? (Key:
+                Who knew there was a deadly email computer virus in spongebob? (Key:
                 O)
               </div>
               <div className="w-[900px] h-[300px] overflow-y-scroll mt-5">
